@@ -52,11 +52,11 @@ The chatbot is designed with a modern, responsive, and mobile-friendly interface
 
 ### 💬 Pashto Chat
 
-![Pashto Chat](screenshots/Pashto_Chat.PNG)
+![Pashto Chat](screenshots/Pashto_Chat.png)
 
 ### 🖼 Image Analysis
 
-![Image Analysis](screenshots/image_analysis.PNG)
+![Image Analysis](screenshots/image_analysis.png)
 
 ### 📱 Mobile View
 
