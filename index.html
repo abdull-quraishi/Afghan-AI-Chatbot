@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="ps">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quraishi Chatboot</title>
+  <link rel="stylesheet" href="css/style.css" />  
+</head>
+<body>
+  <div class="sidebar-drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="side-top">
+        <div class="side-title">
+          <h1>Afghan Chatbot</h1>
+          <p>Your chats, organized</p>
+        </div>
+        <button class="icon-btn " onclick="closeDrawer()" title="closeDrawer">❌</button>
+      </div>
+
+      <div class="side-actions">
+        <button class="btn black" onclick="newChat()">New Chat</button>
+        <button class="btn" onclick="clearCurrentChat()">Clear Current</button>
+      </div>
+
+      <div class="chat-list-wrap">
+        <div class="section-label">Recent Chats</div>
+        <div id="chatList" class="chat-list"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <div class="topbar-left">
+          <button class="icon-btn mobile-only" onclick="openDrawer()" title="Menu">☰</button>
+          <div class="current-chat-title">
+            <h2 id="chatTitle">New Chat</h2>
+            <p id="chatSubtitle">Replies match the language of your message</p>
+          </div>
+        </div>
+        <div class="top-actions mobile-only">
+          <button class="icon-btn primarynew" onclick="newChat()" title="New chat">➕</button>
+          <button class="icon-btn clearbtn" style="font-size: 25px;" onclick="clearCurrentChat()" title="Clear current">🗑</button>
+        </div>
+      </div>
+
+      <div id="chatBox" class="chat-box"></div>
+
+      <div class="composer">
+        <div id="previewWrap" class="preview-wrap"></div>
+        <div class="input-row">
+          <button class="icon-btn" onclick="document.getElementById('imageInput').click()" title="Image">📷</button>
+          <textarea id="userInput" placeholder="...خپله پوښتنه ولیکئ" style="text-align:right"></textarea>
+          <input type="file" id="imageInput" accept="image/*" hidden>
+
+          <button class="icon-btn" id="voiceBtn" onclick="toggleVoice()" title="Voice">🎤</button>
+          <button class="icon-btn primary" onclick="sendMessage()" title="Send">➤</button>
+        </div>
+
+        <div class="footer-note">
+          <span>History is saved per chat.</span>
+          <span>Voice and speech work best in Chromium browsers.</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
+
