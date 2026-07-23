@@ -50,15 +50,15 @@ The chatbot is designed with a modern, responsive, and mobile-friendly interface
 
 ## 📸 Screenshots
 
-### Pashto Chating
+### 💬 Pashto Chat
+
+![Pashto Chat](screenshots/Pashto_Chat.PNG)
+
+### 🖼 Image Analysis
 
 ![Image Analysis](screenshots/image_analysis.PNG)
 
-### Image Analysis
-
-![Pashto Chating](screenshots/Pashto_Chat.PNG)
-
-### Mobile View
+### 📱 Mobile View
 
 ![Mobile View](screenshots/mobile_view.jpg)
 
