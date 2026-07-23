@@ -52,15 +52,15 @@ The chatbot is designed with a modern, responsive, and mobile-friendly interface
 
 ### Chat Interface
 
-![Chat Interface](screenshots/image_analysis.PNG)
+![Image Analysis](screenshots/image_analysis.PNG)
 
 ### Image Analysis
 
-![Image Analysis](screenshots/Pashto_Chat.PNG)
+![Pashto Chating](screenshots/Pashto_Chat.PNG)
 
 ### Image Generation
 
-![Image Generation](screenshots/mobile_view.jpg)
+![Mobile View](screenshots/mobile_view.jpg)
 
 ---
 
